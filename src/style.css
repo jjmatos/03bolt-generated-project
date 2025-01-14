@@ -1,0 +1,156 @@
+body {
+  background-color: #121212;
+  color: #eee;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+#csvFileInput,
+#loadCsvButton,
+#loadTableInput,
+#loadTableButton {
+  margin: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #eee;
+  cursor: pointer;
+}
+
+#loadCsvButton,
+#loadTableButton {
+  background-color: #007bff;
+}
+
+#form-container {
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #007bff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  background-color: #333;
+  color: #eee;
+}
+
+button[type="submit"],
+button[type="button"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #eee;
+  cursor: pointer;
+}
+
+#results {
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  max-width: 500px;
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+#dynamic-table-container {
+  width: 120%;
+  max-width: 750px;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #666;
+  padding: 8px;
+  text-align: left;
+  color: #eee;
+}
+
+th {
+  background-color: #333;
+}
+
+.delete-button,
+.edit-button,
+.save-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  color: #eee;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.edit-button {
+  background-color: #ffc107;
+}
+
+.save-button {
+  background-color: #28a745;
+}
+
+#add-field-container {
+  margin-top: 20px;
+}
+
+#addFieldButton {
+  background-color: #007bff;
+}
+
+#saveTableButton {
+  background-color: #28a745;
+  margin-bottom: 20px;
+}
+
+select {
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  background-color: #333;
+  color: #eee;
+}
+
+.invalid-field {
+  border: 2px solid #dc3545;
+}

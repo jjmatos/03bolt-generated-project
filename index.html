@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dynamic Form</title>
+      <link rel="stylesheet" href="src/style.css">
+    </head>
+    <body>
+      <input type="file" id="csvFileInput" accept=".csv">
+      <button id="loadCsvButton">Load CSV</button>
+      <div id="form-container"></div>
+      <div id="add-field-container">
+        <button id="addFieldButton">Add Field</button>
+      </div>
+      <div id="results"></div>
+      <div id="dynamic-table-container">
+        <input type="file" id="loadTableInput" accept=".txt">
+        <button id="loadTableButton">Load Table from TXT</button>
+        <button id="clearTableButton">Clear Table</button>
+        <button id="saveTableButton">Save Table to TXT</button>
+      </div>
+      <script type="module" src="/src/main.js"></script>
+    </body>
+    </html>
